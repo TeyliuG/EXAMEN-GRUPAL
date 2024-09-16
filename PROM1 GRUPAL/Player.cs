@@ -12,6 +12,13 @@ namespace PROM1_GRUPAL
         private int health;
         private int damage;
 
+        public string Name { get { return name; } }
 
+        public Player(string name, int health, int damage)
+        {
+            this.name = name;
+            this.health = health;
+            this.damage = damage;
+        }
     }
 }
