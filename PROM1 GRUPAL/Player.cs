@@ -21,12 +21,12 @@ namespace PROM1_GRUPAL
             this.damage = damage;
         }
         public void Damage()
-        { 
-            
+        {
+
         }
         public void GetDamage()
-        { 
-            
+        {
+
         }
 
     }
