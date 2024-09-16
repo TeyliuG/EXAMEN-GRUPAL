@@ -4,3 +4,4 @@ voy a pushear la clase creada del jugador porseacaso
 en el program hay algo con error que es el "Menu", creo que si hacemos push con errores nos baja puntos el profe o algo asi. lo borro? creo que fuiste tu alonso.
 mejor pongan su nombre al final del mensaje xd - alonso
 ahí soluciono lo del error pero no creo, solo puse console writes ahora lo checo - alonso
+adrian, hiciste play en la clase de ítems???? - BOADA
