@@ -3,3 +3,4 @@ Adrian Pacheco clase ítems, funcionalidad lista de ítems (nombrar ítems y var
 Marcelo Salerno  crear clase enemigos, funcionalidad daño y recibir daño, menú hacer daño
 Jeremy Escobar clase menú flujo de juego, funcionalidad recibir daño de enemigos, recibir daño
 Edgard Pérez crear clase menú y trabajar en clase enemigo, funcionalidad hacer daño enemigo, menú opciones
+en la funcionalidad de daño, como hago el método? - boada
