@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace PROM1_GRUPAL
 {
-    internal class Program
+    internal class Menu
     {
-        static void Main(string[] args)
+        public void Execute()
         {
-            Menu menu = new Menu();
-            menu.Execute();
+            MenuJuego();
         }
+
+        public void MenuJuego() { }
     }
 }
