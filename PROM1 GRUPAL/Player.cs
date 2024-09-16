@@ -20,5 +20,14 @@ namespace PROM1_GRUPAL
             this.health = health;
             this.damage = damage;
         }
+        public void Damage()
+        { 
+            
+        }
+        public void GetDamage()
+        { 
+            
+        }
+
     }
 }
