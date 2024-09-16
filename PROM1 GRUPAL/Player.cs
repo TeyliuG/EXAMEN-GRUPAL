@@ -8,6 +8,10 @@ namespace PROM1_GRUPAL
 {
     internal class Player
     {
+        private string name;
+        private int health;
+        private int damage;
+
 
     }
 }
