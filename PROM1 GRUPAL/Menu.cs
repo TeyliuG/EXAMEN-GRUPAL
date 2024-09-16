@@ -8,6 +8,7 @@ namespace PROM1_GRUPAL
 {
     internal class Menu
     {
+        private Player player;
         public void Execute()
         {
             MenuJuego();
@@ -19,13 +20,14 @@ namespace PROM1_GRUPAL
 
             Console.WriteLine("Crea al jugador:");
             Console.WriteLine("Que nombre desea ponerle al jugador?");
-            string playerName = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("Cuanta vida deseas tener?");
-            int playervida = int.Parse(Console.ReadLine());
+            int health = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la cantidad de daño que desea hacer:");
-            int playerdanho = int.Parse(Console.ReadLine());
+            int damage = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese los items para el jugador");
             string playeritems = Console.ReadLine(); // los items seran string (?
+            player = new Player(name,health, damage);
 
             Console.WriteLine("Crea al enemigo:");
             Console.WriteLine("Que nombre desea ponerle al enemigo?");
