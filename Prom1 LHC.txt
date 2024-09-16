@@ -1,0 +1,5 @@
+Sebastián Boada clase jugador , funcionalidad de daño y recibir daño y menú recibir daño.
+Adrian Pacheco clase ítems, funcionalidad lista de ítems (nombrar ítems y variables)
+Marcelo Salerno  crear clase enemigos, funcionalidad daño y recibir daño, menú hacer daño
+Jeremy Escobar clase menú flujo de juego, funcionalidad recibir daño de enemigos, recibir daño
+Edgard Pérez crear clase menú y trabajar en clase enemigo, funcionalidad hacer daño enemigo, menú opciones
