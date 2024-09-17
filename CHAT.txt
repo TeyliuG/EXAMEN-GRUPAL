@@ -34,3 +34,6 @@ para las necesarias - Adrian
 
 tienes que darle play en laclase de enemy para que se guarde y luego pusheas marcelo - BOADA
 
+
+git config user.name "<nombre>"
+git config user.email <correo>
