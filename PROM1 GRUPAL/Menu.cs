@@ -39,6 +39,25 @@ namespace PROM1_GRUPAL
             Console.WriteLine("Ingrese los items para el enemigo");
             string Enemyitems = Console.ReadLine();
 
+            
+            FlujoJuego();
+        }
+
+        public void FlujoJuego()
+        {
+            Console.WriteLine("Que deseas hacer a continuacion?");
+
+            Console.WriteLine("1. Atacar");
+            Console.WriteLine("2. Item");
+
+            string options = Console.ReadLine();
+            switch (options)
+            {
+                case "1":
+                    Console.WriteLine("Has atacado");
+                    break;
+
+            }
         }
     }
 }
