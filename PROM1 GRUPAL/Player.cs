@@ -12,21 +12,30 @@ namespace PROM1_GRUPAL
         private int health;
         private int damage;
 
-        public string Name { get { return name; } }
-
         public Player(string name, int health, int damage)
         {
             this.name = name;
             this.health = health;
             this.damage = damage;
         }
-        public void Damage()
+        public void TakeDamage(int damage)
         {
-
+            health += damage;
         }
-        public void GetDamage()
-        {
 
+        public bool IsAlive()
+        {
+            return health > 0;
+        }
+
+        public int GetDamage()
+        {
+            return -damage;
+        }
+
+        public string GetData()
+        {
+            return $"Jugador:{name} - Vida:{health} - Daño:{damage}";
         }
 
     }
