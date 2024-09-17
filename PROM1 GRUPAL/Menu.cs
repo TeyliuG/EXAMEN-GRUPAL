@@ -78,6 +78,7 @@ namespace PROM1_GRUPAL
 
             Console.WriteLine("1. Atacar");
             Console.WriteLine("2. Item");
+            Console.WriteLine("3. Inventario");
 
             string options = Console.ReadLine();
             switch (options)
@@ -87,7 +88,14 @@ namespace PROM1_GRUPAL
                     break;
                 case "2":
                     break;
-
+                case "3":
+                    List<Items> items = Items.GetItems();
+                    Console.WriteLine("\nLista de items:");
+                    foreach (var item in items)
+                    {
+                        Console.WriteLine($"Nombre: {item.Name}, Descripcion: {item.Description}");
+                    }
+                    break;
             }
         }
     }
