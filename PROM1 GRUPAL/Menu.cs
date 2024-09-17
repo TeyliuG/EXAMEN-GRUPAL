@@ -36,7 +36,7 @@ namespace PROM1_GRUPAL
             Console.WriteLine("Crea al enemigo:");
             Console.WriteLine("Que nombre desea ponerle al enemigo?");
             string enemyName = Console.ReadLine();
-            Console.WriteLine("Cuanta vida deseas tener?");
+            Console.WriteLine("Cuanta vida deseas que tenga?");
             int enemyVida = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la cantidad de daño para el enemigo:");
             int enemyDanho = int.Parse(Console.ReadLine());
