@@ -30,4 +30,7 @@ marcelo, tiene que dar arriba a la derecha en la flechita verde con fondo negro 
 
 adrian switch case para todas las opciones del menú o solo para ítems?
 
-para las necesarias
+para las necesarias - Adrian
+
+tienes que darle play en laclase de enemy para que se guarde y luego pusheas marcelo - BOADA
+
