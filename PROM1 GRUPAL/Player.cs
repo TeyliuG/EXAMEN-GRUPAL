@@ -38,5 +38,10 @@ namespace PROM1_GRUPAL
             return $"Jugador:{name} - Vida:{health} - Daño:{damage}";
         }
 
+        public void GetHealed(int x)
+        {
+            health += x;
+        }
+
     }
 }

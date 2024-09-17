@@ -85,6 +85,8 @@ namespace PROM1_GRUPAL
                 case "1":
                     Console.WriteLine("Has atacado");
                     break;
+                case "2":
+                    break;
 
             }
         }
