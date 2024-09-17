@@ -27,14 +27,23 @@ namespace PROM1_GRUPAL
         }
 
         private static List<Items> itemList = new List<Items>();
+        private static List<Items> etemList = new List<Items>();
 
         public static List<Items> GetItems()
         {
             return new List<Items>(itemList);
         }
+        public static List<Items> GetEtems()
+        {
+            return new List<Items>(etemList);
+        }
         public static void AddItem(Items item)
         {
             itemList.Add(item);
+        }
+        public static void AddEtem(Items item)
+        {
+            etemList.Add(item);
         }
     }
 }
