@@ -18,3 +18,5 @@ que opciones necesitas para el switch?? - alonso
 con lo que está en player, ya está todo lo que puedo hacer por ahora. faltaría ponerlo en el menú de "recibir daño".
 
 sebastian explicale a marcelo lo de los plays para el push no ha pusheado nada!
+
+marcelo, tiene que dar arriba a la derecha en la flechita verde con fondo negro para que se "guarde" y luego hacer el push - boada
