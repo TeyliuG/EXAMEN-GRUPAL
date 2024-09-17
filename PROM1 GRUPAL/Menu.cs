@@ -74,6 +74,11 @@ namespace PROM1_GRUPAL
 
         public void FlujoJuego()
         {
+            int turno = 0;
+            while (player.IsAlive()) {
+                Console.WriteLine($"Turno #{turno + 1}");
+                Console.WriteLine("A quien desea atacar?") ;
+            }
             Console.WriteLine("Que deseas hacer a continuacion?");
 
             Console.WriteLine("1. Atacar");
