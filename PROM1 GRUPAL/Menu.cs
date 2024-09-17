@@ -20,24 +20,19 @@ namespace PROM1_GRUPAL
             Console.WriteLine("¿Que desea hacer?");
             Console.WriteLine("------------");
 
-
-            Console.WriteLine("Crea al jugador:");
-            Console.WriteLine("Que nombre desea ponerle al jugador?");
+            Console.WriteLine("*******************************");
+            Console.WriteLine("JUGADOR");
+            Console.WriteLine("Colocale un nombre al jugador");
             string name = Console.ReadLine();
-            Console.WriteLine("Cuanta vida deseas tener?");
+            Console.WriteLine("Añade Cantidad de vida para el jugador");
             int health = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la cantidad de daño que desea hacer:");
             int damage = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese los items para el jugador");
-            Console.Write("Introduce el nombre");
-            string iname = Console.ReadLine();// poner todo esto en switch cases
-            Console.Write("Introduce la descripcion");
-            string description = Console.ReadLine();
-            Items newItem = new Items(iname, description);
-            Items.AddItem(newItem);
-            Console.WriteLine("Item añadido");
-            player = new Player(name,health, damage);
+            Console.WriteLine("*******************************");
+            Console.WriteLine(" ");
 
+            Console.WriteLine("*******************************");
+            Console.WriteLine("ENEMIGO");
             Console.WriteLine("Crea al enemigo:");
             Console.WriteLine("Que nombre desea ponerle al enemigo?");
             string enemyName = Console.ReadLine();
@@ -45,10 +40,35 @@ namespace PROM1_GRUPAL
             int enemyVida = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la cantidad de daño para el enemigo:");
             int enemyDanho = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese los items para el enemigo");
-            string Enemyitems = Console.ReadLine();
+            Console.WriteLine("*******************************");
+            Console.WriteLine(" ");
 
-            
+            Console.WriteLine("*******************************");
+            Console.WriteLine("ITEMS");
+        
+            Console.WriteLine("1. Introduce el nombre");
+            string iname = Console.ReadLine();// poner todo esto en switch cases
+            Console.WriteLine("2.Introduce la descripcion");
+            string description = Console.ReadLine();
+            Items newItem = new Items(iname, description);
+            Items.AddItem(newItem);
+            Console.WriteLine("Item añadido");
+            player = new Player(name,health, damage);
+            Console.WriteLine("1 .Ingrese los items para el enemigo");
+            string Enemyitems = Console.ReadLine();
+            Console.WriteLine("2 .Ingrese los items para el jugador");
+            string option = Console.ReadLine();
+            switch (option)
+            {
+                case "1":
+                    Console.WriteLine();
+                    break;
+
+            }
+            Console.WriteLine("*******************************");
+
+
+
             FlujoJuego();
         }
 
