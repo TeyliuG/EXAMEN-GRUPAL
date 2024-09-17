@@ -16,7 +16,10 @@ namespace PROM1_GRUPAL
 
         public void MenuJuego() {
             Console.WriteLine("Bienvenido al RPG");
-            Console.WriteLine("Crea items:");
+            Console.WriteLine("------------");
+            Console.WriteLine("¿Que desea hacer?");
+            Console.WriteLine("------------");
+
 
             Console.WriteLine("Crea al jugador:");
             Console.WriteLine("Que nombre desea ponerle al jugador?");
