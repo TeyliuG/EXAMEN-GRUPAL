@@ -13,3 +13,4 @@ Creen un switch en la clase de menú para implementar cosas
 que opciones necesitas para el switch?? - alonso 
 
 
+con lo que está en player, ya está todo lo que puedo hacer por ahora. faltaría ponerlo en el menú de "recibir daño".
