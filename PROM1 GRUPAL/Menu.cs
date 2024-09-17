@@ -26,7 +26,13 @@ namespace PROM1_GRUPAL
             Console.WriteLine("Ingrese la cantidad de daño que desea hacer:");
             int damage = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese los items para el jugador");
-            string playeritems = Console.ReadLine(); // los items seran string (?
+            Console.Write("Introduce el nombre");
+            string iname = Console.ReadLine();// poner todo esto en switch cases
+            Console.Write("Introduce la descripcion");
+            string description = Console.ReadLine();
+            Items newItem = new Items(iname, description);
+            Items.AddItem(newItem);
+            Console.WriteLine("Item añadido");
             player = new Player(name,health, damage);
 
             Console.WriteLine("Crea al enemigo:");
