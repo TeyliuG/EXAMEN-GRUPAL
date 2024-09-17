@@ -34,5 +34,22 @@ namespace PROM1_GRUPAL
         {
             return health > 0;
         }
+        public void GetDamage(int pdmg)
+        {
+            health -= pdmg;
+            if (health < 0)
+            {
+                health = 0;
+            }
+        }
+        public bool EnemyIsAlive()
+        {
+            return health > 0;
+        }
+
+        public int VidaCantEnemigo()
+        {
+            return health;
+        }
     }
 }
