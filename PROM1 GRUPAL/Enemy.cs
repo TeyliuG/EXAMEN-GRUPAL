@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace PROM1_GRUPAL
 {
@@ -21,9 +22,17 @@ namespace PROM1_GRUPAL
         {
             health += damage;
         }
-        public void GetDamage()
+        public int GetDamage()
         {
-
+            return -damage;
+        }
+        public string GetData()
+        {
+            return $"Jugador:{enemy} - Vida:{health} - Daño:{damage}";
+        }
+        public bool Life()
+        {
+            return health > 0;
         }
     }
 }
